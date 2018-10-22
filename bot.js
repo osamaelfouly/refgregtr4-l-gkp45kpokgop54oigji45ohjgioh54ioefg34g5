@@ -5,7 +5,16 @@ const prefix = "."
 client.on('ready', () => {
 	 console.log (`Logged in as ${client.user.tag}!`);
 });
-c
+
+
+client.on('ready', () => {
+	    client.user.setGame(`QUADRA SERVER`,'https://www.twitch.tv/v5bz');
+	console.log('----');
+	console.log('fouly is here')
+	console.log('----')
+});
+
+
 ///color///
 client.on('message', function(message) {
     if (message.content ===  '.rcolors'){
@@ -34,7 +43,7 @@ client.on('message', message => {
       if (message.author.bot) return
               if(!message.channel.guild) return message.reply('** This command only for servers **');
             if(!message.guild.roles.find("name", "1")) ;
-    message.channel.sendFile('https://media.discordapp.net/attachments/486306371789258753/493470306950840350/colors.png');
+    message.channel.sendFile('https://media.discordapp.net/attachments/486306371789258753/503899065311035412/colors.png');
   }
 });
 

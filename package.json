@@ -1,36 +1,53 @@
 {
-  "name": "discord.js-heroku",
-  "version": "1.0.0",
-  "description": "Discord.js bot on Heroku",
-  "main": "bot.js",
-  "dependencies": {
-    "node": "8.x",
-    "discord.js": "^11.3.2",
-    "ffmpeg": "^0.0.4",
-    "ffmpeg-binaries": "^4.0.0",
-    "get-youtube-id": "^1.0.0",
-    "common-tags": "^1.8.0",
-    "gif-search": "^2.0.1",
-    "google-translate-api": "^2.3.0",
-    "math-expression-evaluator": "^1.2.17",
-    "node-gyp": "^3.7.0",
-    "opusscript": "^0.0.6",
-    "queue": "^4.4.2",
-    "rebuild": "^0.1.2",
-    "request": "^2.88.0",
-    "simple-youtube-api": "^5.0.2",
-    "youtube-info": "^1.2.0",
-    "ytdl-core": "^0.21.1"
+  "_from": "discord-anti-spam",
+  "_id": "discord-anti-spam@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-eJDnS+1IINXdASjt7e7kvWtGYvkYdcNQMqzAtCtUnDG8GnfX6E/A3jjmLj8XKhF1ZAeJtridSLODmw7OR02pPg==",
+  "_location": "/discord-anti-spam",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "discord-anti-spam",
+    "name": "discord-anti-spam",
+    "escapedName": "discord-anti-spam",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/discord-anti-spam/-/discord-anti-spam-1.1.2.tgz",
+  "_shasum": "ea8de84054151d38fe46f2ce65cc58f7fe5cfad2",
+  "_spec": "discord-anti-spam",
+  "_where": "C:\\Users\\noorhan\\Desktop\\bots\\Deff",
+  "author": {
+    "name": "Michael Scofield"
+  },
+  "bugs": {
+    "url": "https://github.com/Michael-J-Scofield/discord-anti-spam/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Simple discord anti spam package",
+  "homepage": "https://github.com/Michael-J-Scofield/discord-anti-spam#readme",
   "keywords": [
-    "heroku",
+    "Discord",
+    "spam",
+    "anti-spam",
     "discord.js"
   ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
+  "license": "ISC",
+  "main": "anti_spam.js",
+  "name": "discord-anti-spam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-J-Scofield/discord-anti-spam.git"
   },
-  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.2"
 }

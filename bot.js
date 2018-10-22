@@ -1,4 +1,3 @@
-const Discord = require('discord.js');
 const perfix = "#"
 const Fouly = new Discord.Client ();
 const anti_spam = require("discord-anti-spam");

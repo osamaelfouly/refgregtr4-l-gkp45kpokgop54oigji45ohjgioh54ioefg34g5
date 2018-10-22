@@ -11231,5 +11231,5 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 	}
 });
 
-client.login('NDkxMjgyMTcxNzgxNDQ3Njkw.DolXLQ.d9VgjLBnjjU4viaW4BCRMKWuQBA');
+client.login('NDkxMjYwNTM5NDg2NjAxMjI3.Dq9LAg.bWwchbX6-92ymzLUal_wqYG7KfE');
 
